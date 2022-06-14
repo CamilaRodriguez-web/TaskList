@@ -9,6 +9,7 @@ import { TASKS } from 'src/app/mock-task';
 })
 export class TaskItemComponent implements OnInit {
   @Input() task: Task = TASKS[0]
+  
   constructor() { }
 
   ngOnInit(): void {
